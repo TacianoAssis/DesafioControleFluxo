@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Contador {
     public static void main(String[] args) {
         Scanner terminal = new Scanner(System.in);
-        int parametroUm = 0, parametroDois = 0;
+        int parametroUm, parametroDois;
 
        do {
            System.out.print("Digite o primeiro parâmetro: ");
